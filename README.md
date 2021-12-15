@@ -4,3 +4,15 @@ Here is the guide for maven installation just in case : https://maven.apache.org
 Project get all dependencies from maven repository. So no additional installation needed.
 *Below are the dependencies are being used for this project
 Cucumber-Junit, Cucumber-java,Selenium, Bonigarcia Webdriver
+Test RUN
+Notes: To run all Scenarios, use @win tag in the CukesRunner class/Cucumber Options
+
+1. Way:
+Clone the project
+Import maven dependencies from POM
+Go src -> test > java > GL> runners > CukesRunner and RUN
+To generate "HTML Maven Cucumber Report" ;
+Open Maven right side panel Double Click Project's Lifecycle Click "verify"
+
+2. Way:
+Run from command line invoke mvn clean verify
